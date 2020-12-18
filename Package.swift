@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "KeychainSwift",
     products: [
-        .library(name: "KeychainSwift", targets: ["KeychainSwift"]),
+        .library(name: "KeychainSwift", type: .dynamic, targets: ["KeychainSwift"]),
     ],
     dependencies: [
     ],
